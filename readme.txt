@@ -1,7 +1,7 @@
 Project Name: Boondock (however, project is in the Linkify directory)
 
-Objectives: To create a cool, simple and fast graphical interface to save links, and organize them
-            into bundles.
+Objectives: To create a cool, simple and fast graphical interface to save links,
+and organize them into bundles.
             
 What makes my website interesting is that it uses a clean graphical interface to
 store and manage links to other websites. It takes a snapshot of the page that
