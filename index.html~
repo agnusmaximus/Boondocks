@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>Linkify</title>
+  <link href="Linkify.css" type="text/css" rel="stylesheet"/>
+  <script type="javascript" src="masonry.js"></script>
+  <script type="javascript" src="Linkify.js"></script>
+</Head>
+<body>
+  <div class="item">
+  <a href="#">
+  <div class="poloroid-big">
+    <div class="image-big"></div>
+    <div class="captions">Hello World!</div>
+  </div>
+  </a>
+  </div>
+  <div class="item">
+  <a href="#">
+  <div class="poloroid-small">
+    <div class="image-small"></div>
+    <div class="captions">Hello World!</div>
+  </div>
+  </a>
+  </div>
+  <div class="item">
+  <a href="#">
+  <div class="poloroid-small">
+    <div class="image-small"></div>
+    <div class="captions">Hello World!</div>
+  </div>
+  </a>
+  </div>
+  <div class="item">
+  <a href="#">
+  <div class="poloroid-small">
+    <div class="image-small"></div>
+    <div class="captions">Hello World!</div>
+  </div>
+  </a>
+  </div>
+</body>
+</html>

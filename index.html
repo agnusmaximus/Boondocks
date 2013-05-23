@@ -1,0 +1,49 @@
+<html>
+<head>
+  <title>Boondock</title>
+  <link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
+  <link href="css/Linkify.css" type="text/css" rel="stylesheet"/>
+  <script defer="defer" src="js/jquery.js"></script>
+  <script defer="defer" src="js/jqueryui.js"></script>
+  <script defer="defer" src="js/tooltip.js"></script>
+  <script defer="defer" src="js/jquery.fittext.js"></script>
+  <script defer="defer" src="js/jquery.loremimages.min.js"></script>
+  <script defer="defer" src="js/masonry.js"></script>
+  <script defer="defer" src="js/Linkify.js"></script>
+</Head>
+<body>
+  <div id="sidebar">
+   	<input class="btn btn-info" 
+   		   type="button" 
+   		   style="width:80%;margin-bottom:5px;" 
+   		   value="+ Bundle" 
+   		   onclick="newBundle(event)"/>
+   	<hr/>
+  	<div id="sidebarWrapper">
+  	</div>
+  </div>
+  <div id="surround">
+  <div id="heading">
+  	<h1 id="logo">Boondock</h1>
+  	<span class="tiny">
+	  	Share your favorite links fast!
+  	</span>
+  </div>
+  <div id="search-wrapper">
+    <input type="text" id="search"/>
+    <input class="btn btn-info" 
+    	   style="height:40px;width:20%;
+ 				  padding:0px;
+   				  background-image:none;
+   				  background-color:#CCCCCC;
+   				  margin-top:10px;" 
+   		   value="Lookup" 
+   		   type="button" 
+   		   onclick="search()"/>
+   	<span id="error" style="float:left; margin-top:20px"></span>
+	<div id="wrapper">
+	</div>
+  </div>
+  </div>
+</body>
+</html>

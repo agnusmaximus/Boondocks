@@ -1,0 +1,6 @@
+$(function(){
+  $('body').masonry({
+    itemSelector : '.item',
+    columnWidth : 100
+  });
+});
